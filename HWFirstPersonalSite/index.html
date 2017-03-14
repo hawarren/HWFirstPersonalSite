@@ -263,16 +263,16 @@
 			<div class="skill-agile">
 				<div class="col-sm-4 abt-gd-left text-center">
 					<div id="demo-pie-1" class="pie-title-center" data-percent="25"> <span class="pie-value"></span> </div>
-					<h4>HTML</h4>
+					<h4>HTML5</h4>
 				</div>
 
 				<div class="col-sm-4 abt-gd-left text-center">
 					<div id="demo-pie-3" class="pie-title-center" data-percent="75"> <span class="pie-value"></span> </div>
-					<h4>Java Script</h4>
+					<h4>AJAX</h4>
 				</div>
 				<div class="col-sm-4 abt-gd-left text-center">
 					<div id="demo-pie-4" class="pie-title-center" data-percent="15"> <span class="pie-value"></span> </div>
-					<h4>UI/UX Designer</h4>
+					<h4>ASP.Net MVC</h4>
 				</div>
 				<div class="clearfix"></div>
 			</div>
@@ -330,12 +330,12 @@
 	<div class="portfolio" id="gallery">
 		<div class="container">
 			<h3 class="w3l_head">My Portfolio</h3>
-			<p class="w3ls_head_para">See code samples and some of my Previous Work</p>
+			<p class="w3ls_head_para">See code samples my Previous Work</p>
 			<div class="agileits_portfolio_grids">
 				<div class="col-md-4 agileits_portfolio_grid">
 					<div class="agileinfo_portfolio_grid hovereffect">
 						<!-- Trigger the modal with a button -->
-						<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Reverse a String</button>
+						<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Reverse       <br />a             <br />String        </button>
 						<!-- Modal -->
 						<div class="modal" id="myModal" role="dialog">
 							<div class="modal-dialog modal-lg">
@@ -369,14 +369,14 @@
 					</div>
 					<div class="agileinfo_portfolio_grid hovereffect">
 						<!-- Trigger the modal with a button -->
-						<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal2">Factorialize a Number</button>
+						<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal2">Factorialize  <br />a             <br />Number        </button>
 						<!-- Modal -->
 						<div class="modal" id="myModal2" role="dialog">
 							<div class="modal-dialog modal-lg">
 								<div class="modal-content">
 									<div class="modal-header">
 										<button type="button" class="close" data-dismiss="modal">&times;</button>
-										<h4 class="modal-title">2ND Modal Header BY HANIF</h4>
+										<h4 class="modal-title">Code Snippet</h4>
 									</div>
 									<div class="modal-body">
 										<p style="color: black">
@@ -407,14 +407,14 @@
 					</div>
 					<div class="agileinfo_portfolio_grid hovereffect">
 						<!-- Trigger the modal with a button -->
-						<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal3">Check <br />for <br />Palindromes</button>
+						<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal3">Check         <br />for           <br />Palindromes   </button>
 						<!-- Modal -->
 						<div class="modal" id="myModal3" role="dialog">
 							<div class="modal-dialog modal-lg">
 								<div class="modal-content">
 									<div class="modal-header">
 										<button type="button" class="close" data-dismiss="modal">&times;</button>
-										<h4 class="modal-title">3RD Modal Header BY HANIF</h4>
+										<h4 class="modal-title">Code Snippet</h4>
 									</div>
 									<div class="modal-body">
 										<p style="color: black">
@@ -448,14 +448,14 @@
 					<div class="agileinfo_portfolio_grid hovereffect">
 						
 						<!-- Trigger the modal with a button -->
-						<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal4"> Print<br /> Missing <br />Letters</button>
+						<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal4">Print         <br />Missing       <br />Letters       </button>
 						<!-- Modal -->
 						<div class="modal" id="myModal4" role="dialog">
 							<div class="modal-dialog modal-lg">
 								<div class="modal-content">
 									<div class="modal-header">
 										<button type="button" class="close" data-dismiss="modal">&times;</button>
-										<h4 class="modal-title">Modal Header BY HANIF</h4>
+										<h4 class="modal-title">Code Snippet</h4>
 									</div>
 									<div class="modal-body">
 										<p style="color: black">
@@ -496,9 +496,9 @@
 
 					</div>
 					<div class="agileinfo_portfolio_grid hovereffect">
-						<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Sum of <br /> Odd Fibonnacci  <br /> Numbers</button>
+						<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal5">Sum of         <br />Odd Fibonnacci<br />Numbers       </button>
 						<!-- Modal -->
-						<div class="modal" id="myModal" role="dialog">
+						<div class="modal" id="myModal5" role="dialog">
 							<div class="modal-dialog modal-lg">
 								<div class="modal-content">
 									<div class="modal-header">
@@ -506,7 +506,26 @@
 										<h4 class="modal-title">Sum of Odd Fibonnacci Numbers </h4>
 									</div>
 									<div class="modal-body">
-										<p style="color: black">This is #2 of HANIFS VERSION OF a large modal.</p>
+										<p style="color: black">
+											<pre class="brush: js">
+											function sumFibs(num) {
+											// create an array of fib numbers till num
+											var arrFib = [1];
+											for (var i = 1; i <=num;) {
+											arrFib.push(i);
+											i = arrFib[arrFib.length - 1] + arrFib[arrFib.length - 2];
+											}
+											// return the sum of odd numbers from the array
+											var res = arrFib.reduce(function(prev, curr) {
+											if (curr%2 !== 0) return prev + curr;
+											else return prev;
+											});
+											return res;
+											}
+											// test here
+											sumFibs(4);
+											</pre>
+										</p>
 									</div>
 									<div class="modal-footer">
 										<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -520,17 +539,17 @@
 					</div>
 					<div class="agileinfo_portfolio_grid hovereffect">
 						<!-- Trigger the modal with a button -->
-						<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModalP1">Blog Project<br />  <br /> Using ASP.NET MVC</button>
+						<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModalP1">Blog Project <br />Using ASP.NET <br />MVC           </button>
 						<!-- Modal -->
 						<div class="modal" id="myModalP1" role="dialog">
 							<div class="modal-dialog modal-lg">
 								<div class="modal-content">
 									<div class="modal-header">
 										<button type="button" class="close" data-dismiss="modal">&times;</button>
-										<h4 class="modal-title">My professional blog</h4>
+										<h4 class="modal-title">1st Class Project</h4>
 									</div>
 									<div class="modal-body">
-										<p style="color: black"><a href="https://hwblog20170308110228.azurewebsites.net/" target="_blank">Click here to view my blog, written using ASP.NET MVC.</p>
+										<p style="color: black"><a href="http://hwblog20170308110228.azurewebsites.net" target="_blank">Click here to view my blog, written using ASP.NET MVC.</p>
 									</div>
 									<div class="modal-footer">
 										<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -543,7 +562,7 @@
 				<div class="col-md-4 agileits_portfolio_grid">
 					<div class="agileinfo_portfolio_grid hovereffect">
 						<!-- Trigger the modal with a button -->
-						<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModalP2">2nd Project<br /> Goes Here <br /> TBD</button>
+						<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModalP2">2nd Project   <br />Goes Here     <br />TBD           </button>
 						<!-- Modal -->
 						<div class="modal" id="myModalP2" role="dialog">
 							<div class="modal-dialog modal-lg">
@@ -567,7 +586,7 @@
 					</div>
 					<div class="agileinfo_portfolio_grid hovereffect">                        
 						<!-- Trigger the modal with a button -->
-						<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModalP3"> 3rd Project<br /> Goes Here <br /> TBD</button>
+						<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModalP3">3rd Project   <br />Goes Here     <br />TBD           </button>
 						<!-- Modal -->
 						<div class="modal" id="myModalP3" role="dialog">
 							<div class="modal-dialog modal-lg">
@@ -589,7 +608,7 @@
 					</div>
 					<div class="agileinfo_portfolio_grid hovereffect">
 						<!-- Trigger the modal with a button -->
-						<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModalP4">4th Project<br /> Goes Here <br /> TBD</button>
+						<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModalP4">4th Project   <br />Goes Here     <br />TBD           </button>
 						<!-- Modal -->
 						<div class="modal" id="myModalP4" role="dialog">
 							<div class="modal-dialog modal-lg">
