@@ -155,7 +155,7 @@
     <Content Include="js\modernizr-2.6.2.min.js" />
     <Content Include="js\move-top.js" />
     <Content Include="js\pie-chart.js" />
-    <Content Include="js\responsiveslides.min.js" />
+    <Content Include="js\responsiveslides.js" />
     <Content Include="js\shAutoloader.js" />
     <Content Include="js\shBrushAppleScript.js" />
     <Content Include="js\shBrushAS3.js" />
@@ -198,6 +198,7 @@
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
+    <None Include="Properties\PublishProfiles\HanifHWFirstPersonalSite - Web Deploy.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
