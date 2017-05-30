@@ -1365,3 +1365,14 @@
 .fa-send-o:before, .fa-paper-plane-o:before {
     content: "\f1d9";
 }
+
+.circle {
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  font-size: 50px;
+  color: #fff;
+  line-height: 500px;
+  text-align: center;
+  background: #000
+}
