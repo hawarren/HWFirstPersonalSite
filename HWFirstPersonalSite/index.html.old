@@ -46,24 +46,6 @@
 	<div class="main" id="home">
 		<!-- banner -->
 		<div class="banner">
-			<!-- Collect the nav links, forms, and other content for toggling -->
-				<div class="collapse navbar-collapse nav-wil" id="bs-example-navbar-collapse-1">
-					
-					<nav class="cl-effect-1" id="cl-effect-1">
-						<br />
-						<p>
-						<ul class="nav navbar-nav">
-						<li class="active"><a class="scroll" href="index.html">Home</a></li>
-						<li><a href="#about" class="scroll hvr-bounce-to-bottom">About</a></li>
-						<li><a href="#services" class="scroll hvr-bounce-to-bottom">My Services Offered</a></li>
-						<li><a href="#education" class="scroll hvr-bounce-to-bottom">Skills and Education</a></li>
-						<li><a href="#gallery" class="scroll hvr-bounce-to-bottom">My Portfolio</a></li> <!--Originally was gallery but I changed it for my project-->
-						<li><a href="#mail" class="scroll hvr-bounce-to-bottom">Contact</a></li>
-						</ul>
-						</p>
-					</nav>
-				</div>
-
 			<!--Slider-->
 			<img src="images/hwProfileNature.jpg" alt=" " class="img-responsive">
 			<h2>Hello, I'm Hanif A. Warren</h2>
@@ -103,11 +85,11 @@
 	<!-- header -->
 	<div class="w3_navigation">
 		<div class="container">
-			<p></p>
+            <p></p>
 			<nav class="navbar navbar-default">
 				<!-- Brand and toggle get grouped for better mobile display -->
 				<div class="navbar-header">
-						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                   		<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
 						<span class="sr-only">Toggle navigation</span>
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
@@ -125,7 +107,7 @@
 						<br />
 						<p>
 						<ul class="nav navbar-nav">
-						<li class="active"><a class="scroll" href="index.html">Home</a></li>
+                        <li class="active"><a class="scroll" href="index.html">Home</a></li>
 						<li><a href="#about" class="scroll hvr-bounce-to-bottom">About</a></li>
 						<li><a href="#services" class="scroll hvr-bounce-to-bottom">My Services Offered</a></li>
 						<li><a href="#education" class="scroll hvr-bounce-to-bottom">Skills and Education</a></li>
@@ -354,12 +336,12 @@
 	<div class="portfolio" id="gallery">
 		<div class="container">
 			<h3 class="w3l_head">My Portfolio</h3>
-			<p class="w3ls_head_para">See Some of My previous Work and code samples</p>
+			<p class="w3ls_head_para">See code samples my Previous Work</p>
 			<div class="agileits_portfolio_grids">
 				<div class="col-md-4 agileits_portfolio_grid">
 					<div class="agileinfo_portfolio_grid hovereffect">
 						<!-- Trigger the modal with a button -->
-						<button type="button" class="btn btn-info btn-lg btn-block" data-toggle="modal" data-target="#myModal">Reverse a String</button>
+						<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Reverse       <br />a             <br />String        </button>
 						<!-- Modal -->
 						<div class="modal" id="myModal" role="dialog">
 							<div class="modal-dialog modal-lg">
@@ -393,9 +375,7 @@
 					</div>
 					<div class="agileinfo_portfolio_grid hovereffect">
 						<!-- Trigger the modal with a button -->
-						<button type="button" class="btn btn-info btn-lg btn-block" data-toggle="modal" data-target="#myModal2">
-								Factorialize a Number
-						</button>
+						<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal2">Factorialize  <br />a             <br />Number        </button>
 						<!-- Modal -->
 						<div class="modal" id="myModal2" role="dialog">
 							<div class="modal-dialog modal-lg">
@@ -433,7 +413,7 @@
 					</div>
 					<div class="agileinfo_portfolio_grid hovereffect">
 						<!-- Trigger the modal with a button -->
-						<button type="button" class="btn btn-info btn-lg btn-block" data-toggle="modal" data-target="#myModal3">Check for Palindromes</button>
+						<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal3">Check         <br />for           <br />Palindromes   </button>
 						<!-- Modal -->
 						<div class="modal" id="myModal3" role="dialog">
 							<div class="modal-dialog modal-lg">
@@ -474,7 +454,7 @@
 					<div class="agileinfo_portfolio_grid hovereffect">
 
 						<!-- Trigger the modal with a button -->
-						<button type="button" class="btn btn-info btn-lg btn-block" data-toggle="modal" data-target="#myModal4">Print Missing Letters</button>
+						<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal4">Print         <br />Missing       <br />Letters       </button>
 						<!-- Modal -->
 						<div class="modal" id="myModal4" role="dialog">
 							<div class="modal-dialog modal-lg">
@@ -522,7 +502,7 @@
 
 					</div>
 					<div class="agileinfo_portfolio_grid hovereffect">
-						<button type="button" class="btn btn-info btn-lg btn-block" data-toggle="modal" data-target="#myModal5">Sum of Odd Fibonnacci Numbers</button>
+						<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal5">Sum of         <br />Odd Fibonnacci<br />Numbers       </button>
 						<!-- Modal -->
 						<div class="modal" id="myModal5" role="dialog">
 							<div class="modal-dialog modal-lg">
@@ -565,7 +545,7 @@
 					</div>
 					<div class="agileinfo_portfolio_grid hovereffect">
 						<!-- Trigger the modal with a button -->
-						<button type="button" class="btn btn-info btn-lg btn-block" data-toggle="modal" data-target="#myModalP1">Custom Blog Using .NET MVC           </button>
+						<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModalP1">Blog Project <br />Using ASP.NET <br />MVC           </button>
 						<!-- Modal -->
 						<div class="modal" id="myModalP1" role="dialog">
 							<div class="modal-dialog modal-lg">
@@ -588,7 +568,7 @@
 				<div class="col-md-4 agileits_portfolio_grid">
 					<div class="agileinfo_portfolio_grid hovereffect">
 						<!-- Trigger the modal with a button -->
-						<button type="button" class="btn btn-info btn-lg btn-block" data-toggle="modal" data-target="#myModalP2">My Bug Tracker Application</button>
+						<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModalP2">2nd Project   <br />Goes Here     <br />TBD           </button>
 						<!-- Modal -->
 						<div class="modal" id="myModalP2" role="dialog">
 							<div class="modal-dialog modal-lg">
@@ -612,7 +592,7 @@
 					</div>
 					<div class="agileinfo_portfolio_grid hovereffect">
 						<!-- Trigger the modal with a button -->
-						<button type="button" class="btn btn-info btn-lg btn-block" data-toggle="modal" data-target="#myModalP3">Financial Portal</button>
+						<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModalP3">3rd Project   <br />Goes Here     <br />TBD           </button>
 						<!-- Modal -->
 						<div class="modal" id="myModalP3" role="dialog">
 							<div class="modal-dialog modal-lg">
@@ -634,7 +614,7 @@
 					</div>
 					<div class="agileinfo_portfolio_grid hovereffect">
 						<!-- Trigger the modal with a button -->
-						<button type="button" class="btn btn-info btn-lg btn-block" data-toggle="modal" data-target="#myModalP4">About my Portfolio </button>
+						<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModalP4">4th Project   <br />Goes Here     <br />TBD           </button>
 						<!-- Modal -->
 						<div class="modal" id="myModalP4" role="dialog">
 							<div class="modal-dialog modal-lg">

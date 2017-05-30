@@ -144,6 +144,7 @@
     <Content Include="images\search.png" />
     <Content Include="images\serve.jpg" />
     <Content Include="index.html" />
+    <None Include="index.html.old" />
     <Content Include="js\bars.js" />
     <Content Include="js\bootstrap.js" />
     <Content Include="js\easing.js" />
