@@ -1,0 +1,45 @@
+﻿body {
+}
+
+.circle {
+  position: relative;
+  display: inline-block;
+  width: 10%;
+  height: 0;
+  line-height:0;
+  padding: 10% 10% 10% 10%;
+  border-radius: 25%;
+  
+  /* Just making it pretty */
+  @shadow: rgba(0, 0, 0, .1);
+  @shadow-length: 4px;
+  -webkit-box-shadow: 0 @shadow-length 0 0 @shadow;
+          box-shadow: 0 @shadow-length 0 0 @shadow;
+  text-shadow: 0 @shadow-length 0 @shadow;
+  background: #38a9e4;
+  color: white;
+  font-family: Helvetica, Arial Black, sans;
+  font-size: 12px;
+  text-align: center;
+}
+
+.circle-singleline {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    font-size: 25px;
+    line-height: 100px;
+    text-align: center;
+    background: purple;
+    color: white;
+}
+.circle-multiline {
+    display: table-cell;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 50%;
+    background: purple;
+    color: white;
+}
