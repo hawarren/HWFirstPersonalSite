@@ -43,3 +43,12 @@
     background: purple;
     color: white;
 }
+
+.education-agile-w3l.oneend {
+    margin: 1em 0;
+    border: 1px solid #ddd;
+    border-left: none;
+    border-right: none;
+    border-bottom: none:
+    padding: 1em 0;
+}
