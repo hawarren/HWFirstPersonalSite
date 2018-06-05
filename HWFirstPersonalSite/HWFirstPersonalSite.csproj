@@ -147,6 +147,7 @@
     <Content Include="index - Copy.html" />
     <Content Include="index.html" />
     <Content Include="indexOLD.html" />
+    <Content Include="IndexTemplate.html" />
     <Content Include="js\bars.js" />
     <Content Include="js\bootstrap.js" />
     <Content Include="js\easing.js" />
